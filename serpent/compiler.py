@@ -117,6 +117,8 @@ funtable = [
     ['create', [1, 1, 2], 1, ['<2>', '<1>', '<0>', 'CREATE']],
     ['sha3', 1, 1, [32, 'MSIZE', '<0>', 'MSIZE', 'MSTORE', 'SHA3']],
     ['sha3bytes', 1, 1, ['SHA3']],
+    ['ecverify', 6, 1, ['MSIZE', '<0>', 'MSIZE', 'MSTORE','<1>', 'MSIZE', 'MSTORE' , 
+            '<2>', 'MSIZE', 'MSTORE', '<3>', 'MSIZE', 'MSTORE', '<4>', 'MSIZE', 'MSTORE', '<5>', 'MSIZE', 'MSTORE', 'ECVERIFY']],
     ['sload', 1, 1, ['<0>', 'SLOAD']],
     ['sstore', 2, 0, ['<1>', '<0>', 'SSTORE']],
     ['calldataload', 1, 1, ['<0>', 32, 'MUL', 'CALLDATALOAD']],
