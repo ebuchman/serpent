@@ -119,6 +119,8 @@ funtable = [
     ['sha3bytes', 1, 1, ['SHA3']],
     ['ecverify', 6, 1, ['MSIZE', '<0>', 'MSIZE', 'MSTORE','<1>', 'MSIZE', 'MSTORE' , 
             '<2>', 'MSIZE', 'MSTORE', '<3>', 'MSIZE', 'MSTORE', '<4>', 'MSIZE', 'MSTORE', '<5>', 'MSIZE', 'MSTORE', 'ECVERIFY']],
+    ['ecverifyRecover', 4, 1, ['MSIZE', '<0>', 'MSIZE', 'MSTORE','<1>', 'MSIZE', 'MSTORE' , 
+            '<2>', 'MSIZE', 'MSTORE', '<3>', 'MSIZE', 'MSTORE', 'ECVERIFY_RECOVER']],
     ['sload', 1, 1, ['<0>', 'SLOAD']],
     ['sstore', 2, 0, ['<1>', '<0>', 'SSTORE']],
     ['calldataload', 1, 1, ['<0>', 32, 'MUL', 'CALLDATALOAD']],
